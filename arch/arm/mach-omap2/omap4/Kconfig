@@ -18,6 +18,7 @@ endchoice
 config SYS_SOC
 	default "omap4"
 
+source "board/samsung/t1/Kconfig"
 source "board/ti/panda/Kconfig"
 source "board/ti/sdp4430/Kconfig"
 

@@ -1,0 +1,12 @@
+if TARGET_OMAP4_SAMSUNG_T1
+
+config SYS_BOARD
+	default "t1"
+
+config SYS_VENDOR
+	default "samsung"
+
+config SYS_CONFIG_NAME
+	default "omap4_samsung_t1"
+
+endif
