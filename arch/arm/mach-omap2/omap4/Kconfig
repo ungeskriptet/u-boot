@@ -7,6 +7,9 @@ choice
 config TARGET_OMAP4_PANDA
 	bool "TI OMAP4 PandaBoard"
 
+config TARGET_OMAP4_SAMSUNG_T1
+	bool "Samsung Galaxy S II (GT-I9100G)"
+
 config TARGET_OMAP4_SDP4430
 	bool "TI OMAP4 SDP4430"
 
